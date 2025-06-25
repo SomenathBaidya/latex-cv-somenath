@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+% Name and Contact Information
+\begin{flushleft}
+    \Huge \textbf{Somenath Baidya}
+\end{flushleft}
+
+\begin{flushright}
+    \includegraphics[width=3cm,height=3.5cm]{somenath photo.jpg}
+\end{flushright}
+
+\noindent
+\textbf{Address:} Rajapur, South 24 Parganas, West Bengal, 743337 \\
+\textbf{Phone:} +91-9046606778 \\
+\textbf{Email:} baidyasomenath8@gmail.com
+
+\vspace{0.5cm}
+
+% Educational Qualifications
+\noindent
+\textbf{\large Educational Qualifications}
+
+\begin{tabular}{| m{5cm} | m{5cm} | m{3cm} |}
+    \hline
+    \textbf{Degree} & \textbf{Institution} & \textbf{Year} \\
+    \hline
+    B.Sc IT (Data Science) & Maulana Abul Kalam Azad University of Technology & 2024-2028 \\
+    \hline
+    12th Grade (Science) & Paschim Gabberia High School & 2022 \\
+    \hline
+    10th Grade & Sinher Danri Kedar Nath High School & 2020 \\
+    \hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+% Awards and Achievements
+\noindent
+\textbf{\large Awards and Achievements}
+\begin{itemize}
+   
+    \item Completed Data Science Internship at XYZ Company.
+\end{itemize}
+
+% Skills
+\noindent
+\textbf{\large Skills}
+\begin{itemize}
+    \item Programming: C, Python
+    \item Data Analysis: Pandas, NumPy, Matplotlib
+    \item Languages: English, Hindi, Bengali
+\end{itemize}
+
+% Activities and Interests
+\noindent
+\textbf{\large Activities and Interests}
+\begin{itemize}
+    \item Reading Data Science blogs and tech articles.
+    
+\end{itemize}
+
+\end{document}
